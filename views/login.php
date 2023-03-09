@@ -15,23 +15,24 @@ define('JS_PATH', 'template/js/'); //define JavaScript path
     <title>Login</title>
 </head>
 <body>
-<div>
-        <header>
+    <div class="background" >
+        <div>
+            <header>
 
-        </header>
-    </div> <br><br>
-    <div id="form">
-        <div id="box">
-            <form method="post">
-                <div id="title">Login</div> <br>
-                <input id="input" type="text" name="user_name" placeholder="Name"><br>
-                <input id="input" type="email" name="email" placeholder="Email"> <br>
-                <input id="input" type="password" name="password" placeholder="Password"><br>
+            </header>
+        </div> <br><br>
+        <div id="form">
+            <div id="box">
+                <form method="post">
+                    <div id="title">Login</div> <br>
+                    <input id="input" type="text" name="user_name" placeholder="Name"><br>
+                    <input id="input" type="password" name="password" placeholder="Password"><br>
 
-                <input id="button" type="submit" value="login"><br>
+                    <input id="button" type="submit" value="login"><br>
 
-                <p class="para" >Not Registered? <a href="/views/login.php">Register Here</a> </p>
-            </form>
+                    <p class="para" >Not Registered? <a href="/Login-signup-form--PHP/views/signup.php">Signup Here</a> </p>
+                </form>
+            </div>
         </div>
     </div>
 </body>
